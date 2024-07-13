@@ -1,0 +1,56 @@
+body {
+  background: #dcd0ac;
+  color: #000;
+  font-family: "Josefin Sans", sans-serif;
+}
+/*  */
+* {
+  box-sizing: border-box;
+}
+
+.wrapper>div {
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.wrapper {
+  display: grid;
+  min-height: 800px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px 300px;
+}
+
+.wrapper>div {
+  flex: 1;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Righteous", sans-serif;
+  color: #6c3333;
+  text-shadow: 3px 3px 3px #7d5d40;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  color:black;
+}
+
+li, a {
+  color: #633f1d;
+}
+
+legend, fieldset {
+  color:#633f1d;
+}
+
+figure {
+  color:#546642;
+}
+
+.rate {
+  color:#6c3333;
+  text-shadow: 3px 3px 3px #7d5d40;
+}
